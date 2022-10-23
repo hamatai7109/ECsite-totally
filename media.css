@@ -1,0 +1,30 @@
+@media screen and (max-width:894px) {
+    header{
+        width: 100%;
+    }
+
+    .header-menu nav{
+        margin-top: 20px;
+    }
+
+    main{
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .main-visual{
+        width: 100%;
+        padding: 0;
+    }
+
+    .main-visual img{
+        height: 800px;
+    }
+
+    .main-details{
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+}
