@@ -1,0 +1,195 @@
+/*general*/
+
+html{
+    font-size: 100%;
+}
+
+body{
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: 'Raleway', sans-serif;
+}
+
+img{
+    width: 100%;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+/*header*/
+header{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding-top: 40px;
+    width: 80%;
+    border-bottom: 1px solid  rgb(231, 231, 231);
+}
+
+header img{
+    height: 20px;
+}
+
+.header-menu nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-menu nav ul{
+    display: flex;
+}
+
+.header-menu nav ul:last-child{
+    padding-right: 30px;
+}
+
+.header-menu nav ul li{
+    font-size: 0.78rem;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/*main*/
+main{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+.main-visual{
+    width: 50%;
+    padding: 20px;
+}
+
+.main-visual img{
+    height: 600px;
+    object-fit: cover;
+}
+
+.main-details{
+    width: 40%;
+    padding: 20px;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-details h1{
+    font-size: 1.0rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid  rgb(231, 231, 231);
+    border-bottom: 1px solid  rgb(231, 231, 231);
+    margin-top: 0;
+}
+
+.main-details h1 span{
+    padding-left: 8px;
+}
+
+.main-details p{
+    font-size: 0.8rem;
+}
+
+/*table*/
+
+.order-table{
+    font-size: 0.8rem;
+    border-collapse: collapse;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.order-table select{
+    width: 100%;
+    border-color: rgb(231, 231, 231);
+}
+
+.order-table th{
+    border-bottom: 1px solid rgb(231, 231, 231);
+}
+
+.color,.size{
+    width: 20%;
+}
+
+.right-border{
+    border-right: 1px solid rgb(231, 231, 231);
+}
+
+.order-table tbody td{
+    text-align: center;
+    padding: 15px;
+    border-bottom: 1px solid rgb(231, 231, 231);
+}
+
+.border-bottom-none td{
+    border-bottom: none;
+}
+
+/*cart-btn*/
+.cart-btn{
+    display: inline-block;
+    margin: 0 auto;
+    padding: 15px;
+    font-size: 0.8rem;
+    width: 90%;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    background-color: rgba(22, 22, 22, 0.9);
+}
+
+/*size-table*/
+.size-table{
+    margin-top: 30px;
+    border-collapse: collapse;
+    border: 1px solid rgb(215, 215, 215);
+    font-size: 0.75rem;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.size-table thead{
+    height: 30px;
+}
+
+.size{
+    width: 15%;
+}
+
+.size-table tbody tr{
+    height: 40px;
+}
+
+.size-table thead,
+.size-table tbody tr td:first-child{
+    background-color: rgb(241, 241, 241);
+}
+
+.size-table td,
+.size-table th{
+    text-align: center;
+    border: 1px solid rgb(215, 215, 215);
+}
+
+
+/*footer*/
+footer{
+    font-size: 0.7rem;
+    text-align: center;
+    margin-top: 70px;
+}
+
+
